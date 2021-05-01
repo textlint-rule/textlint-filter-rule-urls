@@ -1,19 +1,17 @@
 {
   "name": "textlint-filter-rule-urls",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "textlint filter rule that ignore reported errors at URLs. ",
   "keywords": [
     "textlint",
     "filter",
     "rule"
   ],
-  "repository": "https://github.com/hata6502/textlint-filter-rule-urls",
+  "repository": "https://github.com/textlint-rule/textlint-filter-rule-urls",
   "license": "MIT",
   "author": "Tomoyuki Hata <hato6502@gmail.com>",
   "main": "dist/index.js",
   "scripts": {
-    "generate-disclaimer": "yarn licenses generate-disclaimer --ignore-platform > DISCLAIMER.md",
-    "license-checker": "license-checker --excludePackages 'css-select@1.2.0;dictionary-en@3.0.0;domutils@1.5.1;optimist@0.6.1;tiny-segmenter@0.2.0;trim@0.0.1;union@0.5.0;unorm@1.6.0;zlibjs@0.2.0' --excludePrivatePackages --onlyAllow 'Apache-2.0;BSD;BSD-2-Clause;BSD-3-Clause;CC0-1.0;CC-BY-3.0;CC-BY-4.0;ISC;MIT;Public Domain;Unlicense;WTFPL' --production --unknown > /dev/null",
     "tsc": "tsc"
   },
   "dependencies": {
@@ -23,7 +21,6 @@
     "@textlint/ast-node-types": "^4.2.5",
     "@textlint/types": "^1.3.1",
     "@types/node": "^14.0.22",
-    "license-checker": "^25.0.1",
     "typescript": "^4.1.2"
   }
 }
